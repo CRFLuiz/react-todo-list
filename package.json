@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A simple todo list app built with React, Redux and Webpack",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon server/server.js"
+    "serve": "npm run build && nodemon server/server.js"
   },
   "repository": {
     "type": "git",
