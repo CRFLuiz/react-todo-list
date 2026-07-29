@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A simple todo list app built with React, Redux and Webpack",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon server/server.js"
+    "test": "jest",
+    "start": "node server/server.js",
+    "serve": "nodemon server/server.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,14 @@
     "express": "^4.13.4",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-redux": "^5.1.2",
+    "redux": "^3.7.2",
     "webpack": "^1.12.13"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^22.4.4",
+    "eslint": "^4.19.1",
+    "jest": "^22.4.4"
   }
 }
