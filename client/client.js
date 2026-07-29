@@ -7,6 +7,6 @@ import App from '../components/App';
 const store = configureStore();
 
 ReactDOM.render(
-  React.createElement(Provider, { store: store }, App),
+  React.createElement(Provider, { store: store }, React.createElement(App)),
   document.getElementById('app')
 );
