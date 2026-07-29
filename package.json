@@ -4,7 +4,9 @@
   "description": "A simple todo list app built with React, Redux and Webpack",
   "scripts": {
     "test": "jest",
-    "serve": "nodemon server/server.js"
+    "start": "node server/server.js",
+    "serve": "nodemon server/server.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
